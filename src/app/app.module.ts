@@ -11,8 +11,9 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
+import { NewsComponent } from './news/news.component';
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, NewsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
